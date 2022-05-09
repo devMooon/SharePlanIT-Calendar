@@ -62,6 +62,7 @@ class MainActivity : SimpleActivity(), RefreshRecyclerViewListener {
     private val PICK_IMPORT_SOURCE_INTENT = 1
     private val PICK_EXPORT_FILE_INTENT = 2
 
+    //
     private var showCalDAVRefreshToast = false
     private var mShouldFilterBeVisible = false
     private var mIsSearchOpen = false
